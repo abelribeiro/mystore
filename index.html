@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/slider.css">
+    <link href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <title>Teste FrontEnd - UseManu</title>
+</head>
+<body>
+    <header class="app-header">
+        <div class="app-header-wrap wrap">
+            <a href="#" class="app-logo" title="myStore">
+                <img src="./img/logo.svg" alt="myStore">
+            </a>
+            <form action="">
+                <div class="search-wrap">
+                    <label for="search"></label>
+                    <input id="search"type="text" placeholder="Pesquise por produto ou categoria">
+                    <button class="search-btn">
+                        <svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <defs></defs>
+                            <g id="Header---Geral" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1282.000000, -82.000000)" stroke-linecap="round" stroke-linejoin="round">
+                              <g id="Menu" stroke="#2D3A37" stroke-width="2">
+                                <g transform="translate(210.000000, 78.000000)">
+                                  <g id="search" transform="translate(1073.000000, 5.000000)">
+                                    <circle id="Oval" cx="7.5" cy="7.5" r="7.5"></circle>
+                                    <path d="M18,18 L12.8,12.8" id="Shape"></path>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </svg>
+                    </button>
+                </div>
+            </form>
+            <div class="user-topbar">
+                <div class="user-account-resume">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="22" viewBox="0 0 16 22">
+                        <path fill="#ffffff" fill-rule="evenodd" stroke="#ffffff" stroke-width=".3" d="M12.969 10.722a6.287 6.287 0 0 0 1.045-4.269 6.225 6.225 0 0 0-2-3.898A5.99 5.99 0 0 0 7.98 1a5.992 5.992 0 0 0-4.027 1.576 6.227 6.227 0 0 0-1.98 3.91 6.277 6.277 0 0 0 1.067 4.263C1.669 12.457 1 15.66 1 20.517V21h14v-.483c0-4.926-.664-8.137-2.03-9.795h-.001zM8 2.052c1.326 0 2.598.555 3.536 1.542A5.405 5.405 0 0 1 13 7.315a5.403 5.403 0 0 1-1.464 3.722A4.878 4.878 0 0 1 8 12.579a4.878 4.878 0 0 1-3.536-1.542A5.403 5.403 0 0 1 3 7.315a5.417 5.417 0 0 1 1.466-3.72A4.884 4.884 0 0 1 8 2.054zM2 19.948c.04-4.101.61-6.916 1.697-8.392a5.953 5.953 0 0 0 4.315 1.838 5.955 5.955 0 0 0 4.305-1.867c1.077 1.423 1.638 4.251 1.683 8.41l-12 .011z"></path>
+                      </svg>
+                    <a href="#" class="user-topbar-btn">Olá, Átila :)</a>
+                </div>
+                <div class="cart">
+                    <svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <g transform="translate(-1330 -80)" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+                          <g stroke="#ffffff" stroke-width="2">
+                            <g transform="translate(210 78)">
+                              <g transform="translate(1121 3)">
+                                <circle cx="7" cy="20" r="2"></circle>
+                                <circle cx="19" cy="20" r="2"></circle>
+                                <path d="m4.67 5h17.33l-1.68 8.39c-0.18874 0.95023-1.0314 1.6286-2 1.61h-10.57c-1.0105 0.0085708-1.8687-0.73802-2-1.74l-1.52-11.52c-0.13038-0.9944-0.97709-1.7385-1.98-1.74h-2.25"></path>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                    <a href="#" class="cart-basket">Carrinho</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="app">
+        <section class="home-slide wrap">
+            <a href="#"><img src="./img/banner-home.jpg" alt="Os melhores produtos pra você"></a>
+        </section>
+        <section class="categories-list wrap">
+            
+        </section>
+        <section class="weekly-featured-products wrap">
+            <h1 class="main-title" >Sucessos da última semana</h1>
+            <div class="weekly-list">
+                
+            </div>
+        </section>
+        <section class="newsletter wrap">
+            <h1 class="main-title">Saiba tudo sobre nossos produtos</h1>
+            <p>E fique por dentro das novidades e promoções.</p>
+            <form action="">
+                <input type="text" id="newsletter-name" placeholder="Seu primeiro nome">
+                <input type="email" id="newsletter-email" placeholder="Seu melhor email">
+                <button class="primary-btn">Cadastrar</button>
+            </form>
+        </section>
+        <section class="for-you-products wrap">
+            <h1 class="main-title">Escolhidos para vocÊ</h1>
+            <div class="product-list">
+                
+            </div>
+        </section>
+        <footer class="main-footer">
+            <div class="wrap">
+                <div class="business-resume">
+                    <img src="./img/logo.svg" alt="myStore"> 
+                </div>
+                <div class="pay-and-security">
+                    <article class="pagamentos">
+                        <img src="./img/pagamento.png" alt="Formas de Pagamento">
+                    </article>
+                    <article class="segurança">
+                        <img src="./img/seguranca.png" alt="Selos de segurança">
+                    </article>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="./js/script.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+</body>
+</html>
